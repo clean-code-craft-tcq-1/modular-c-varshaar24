@@ -1,3 +1,5 @@
+#ifndef TYPES_H
+#define TYPES_H
 
 /******************************************/
 /* Defines */
@@ -48,6 +50,8 @@ void ColorPairToString(const ColorPair_tst* colorPair_st, char* buffer_au8);
 ColorPair_tst GetColorFromPairNumber(int pairNumber);
 int GetPairNumberFromColor(const ColorPair_tst* colorPair_st);
 
+
+#endif
 
 
 
