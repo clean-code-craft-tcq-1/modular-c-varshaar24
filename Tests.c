@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
+#include "Types.h"
 
 void testNumberToPair(int pairNumber,
     enum MajorColor_ten expectedMajor,
