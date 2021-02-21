@@ -49,6 +49,13 @@ typedef struct {
 void ColorPairToString(const ColorPair_tst* colorPair_st, char* buffer_au8);
 ColorPair_tst GetColorFromPairNumber(int pairNumber);
 int GetPairNumberFromColor(const ColorPair_tst* colorPair_st);
+void testNumberToPair(int pairNumber,
+    enum MajorColor_ten expectedMajor,
+    enum MinorColor_ten expectedMinor);
+void testPairToNumber(
+    enum MajorColor_ten major,
+    enum MinorColor_ten minor,
+    int expectedPairNumber);
 
 
 #endif
