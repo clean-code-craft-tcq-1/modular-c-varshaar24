@@ -3,18 +3,14 @@
 /******************************************/
 /* Externs */
 /******************************************/
-extern const char* MajorColorNames_au8;
-extern const char* MinorColorNames_au8;
 
 /******************************************/
 /* Globar variables */
 /******************************************/
-int numberOfMajorColors_u8 =
-    sizeof(MajorColorNames_au8) / sizeof(MajorColorNames_au8[0]);
+extern int numberOfMajorColors_u8 ;
 
 
-int numberOfMinorColors_u8 =
-    sizeof(MinorColorNames_au8) / sizeof(MinorColorNames_au8[0]);
+extern int numberOfMinorColors_u8;
 
 /******************************************/
 /* GetColorFromPairNumber */
@@ -36,5 +32,3 @@ int GetPairNumberFromColor(const ColorPair_tst* colorPair_st) {
     return colorPair_st->majorColor_en * numberOfMinorColors_u8 +
             colorPair_st->minorColor_en + 1;
 }
-
-
