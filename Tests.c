@@ -2,7 +2,7 @@
 #include <assert.h>
 #include "Types.h"
 
-extern const int MAX_COLORPAIR_NAME_CHARS ;
+const int MAX_COLORPAIR_NAME_CHARS = 16;
 
 void testNumberToPair(int pairNumber,
     enum MajorColor_ten expectedMajor,
