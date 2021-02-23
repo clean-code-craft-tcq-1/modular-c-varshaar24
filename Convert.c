@@ -1,10 +1,10 @@
 #include "Types.h"
 
-int numberOfMajorColors_u8 =
+extern int numberOfMajorColors_u8 =
     sizeof(MajorColorNames_au8) / sizeof(MajorColorNames_au8[0]);
 
 
-int numberOfMinorColors_u8 =
+extern int numberOfMinorColors_u8 =
     sizeof(MinorColorNames_au8) / sizeof(MinorColorNames_au8[0]);
 
 ColorPair_tst GetColorFromPairNumber(int pairNumber_u8) {
