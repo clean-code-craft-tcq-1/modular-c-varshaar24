@@ -5,19 +5,26 @@
 /* Defines */
 /******************************************/
 
+
 /******************************************/
 /* Globar variables */
 /******************************************/
-const char* MajorColorNames_au8[];
+const char* MajorColorNames_au8[] = {
+    "White", "Red", "Black", "Yellow", "Violet"
+};
 
-const char* MinorColorNames_au8[];
+const char* MinorColorNames_au8[] = {
+    "Blue", "Orange", "Green", "Brown", "Slate"
+};
 
-const int MAX_COLORPAIR_NAME_CHARS ;
+const int MAX_COLORPAIR_NAME_CHARS = 16;
 
-int numberOfMajorColors_u8;
+int numberOfMajorColors_u8 =
+    sizeof(MajorColorNames_au8) / sizeof(MajorColorNames_au8[0]);
 
 
-int numberOfMinorColors_u8;
+int numberOfMinorColors_u8 =
+    sizeof(MinorColorNames_au8) / sizeof(MinorColorNames_au8[0]);
 	
 /******************************************/
 /* Enums */
@@ -52,6 +59,10 @@ void testPairToNumber(
 
 
 #endif
+
+
+
+
 
 
 
