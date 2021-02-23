@@ -41,6 +41,8 @@ void testPairToNumber(
     enum MinorColor_ten minor,
     int expectedPairNumber);
 
+void DisplayColourPairForm(void);
+
 
 #endif
 
