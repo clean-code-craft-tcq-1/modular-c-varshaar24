@@ -6,6 +6,8 @@ int main() {
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
+    
+    DisplayColourPairForm();
 
     return 0;
 }
